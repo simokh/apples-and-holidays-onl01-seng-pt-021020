@@ -71,7 +71,7 @@ holiday_supplies.each_line do |line|
     holiday.each do |holiday, supplies|
     puts "  #{holiday.to_s.split("_").map{|x| x.capitalize}.join(" ")}: #{supplies.join(", ")}"
   end
-end
+  end
 end
 
 def all_holidays_with_bbq(holiday_hash)
@@ -83,3 +83,4 @@ def all_holidays_with_bbq(holiday_hash)
       end
     end.flatten.compact
   end
+end 
