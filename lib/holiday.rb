@@ -69,7 +69,7 @@ holiday_supplies.each_line do |line|
   holiday_hash.each do |season, holiday|
     puts "#{season}:"
     holiday.each do |holiday, supplies|
-    puts "  #{holiday.to_s.split("_").map{|x| x.capitalize}.join(" ")}: #{supplies.join(", ")}"
+    puts "  #{holiday.to_s.split("_").map{|x| x}.join(" ")}: #{supplies.join(", ")}"
   end
   end
 end
