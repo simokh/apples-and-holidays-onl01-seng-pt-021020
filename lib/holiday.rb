@@ -42,9 +42,8 @@ end
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   # code here
   # remember to return the updated hash
-  holiday_supplies[:fall]=>[:columbus_day_supplies]
-  holiday_supplies[:fall][:columbus_day_supplies] => ["Flags", "Parade Floats", "Italian Food"]
-  holiday_supplies[:fall]
+  holiday_hash[season][holiday_name] = supply_array
+    holiday_hash
 
 end
 
