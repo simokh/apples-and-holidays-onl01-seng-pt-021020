@@ -73,7 +73,7 @@ holiday_supplies.each_line do |line|
   end
   end
 end
-end 
+end
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
