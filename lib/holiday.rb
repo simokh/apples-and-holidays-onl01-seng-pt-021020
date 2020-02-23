@@ -21,7 +21,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
   holiday_supplies[:summer][:fourth_of_july].shift [2]
   holiday_supplies[:summer][:fourth_of_july][2]= "Watermelon"
   holiday_supplies[:summer][:fourth_of_july]
-    # binding.pry
+    binding.pry
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
